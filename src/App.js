@@ -1,9 +1,9 @@
+import { Body } from "./component/Body";
 
-
-function App() {
+const App=()=> {
   return (
     <div className="text-green-400">
-      hi
+    <Body/>
     </div>
   );
 }
